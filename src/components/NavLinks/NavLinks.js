@@ -4,7 +4,6 @@ import { Box } from '@mui/system';
 import React from 'react';
 
 const MenuStack = styled(Stack)(({ theme }) => ({
-    width:'500px',
     margin:'auto',
     justifyContent:'space-between',
     padding: '20px 0'
@@ -18,7 +17,7 @@ const MenuLink = styled(Typography)(({ theme }) => ({
 const NavLinks = () => {
     return (
         <Box>
-            <MenuStack direction="row" >
+            <MenuStack direction={{xs:'column',sm:'column',md:'row'}} >
                 <MenuLink variant="p" component='a' href="#Home">Home</MenuLink>
                 <MenuLink variant="p" component='a' href="#About">About</MenuLink>
                 <MenuLink variant="p" component='a' href="#Dental">Dental Services</MenuLink>
