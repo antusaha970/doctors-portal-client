@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Box, ListItemText, Stack, Typography } from "@mui/material";
+import { Box, Container, ListItemText, Stack, Typography } from "@mui/material";
 
 export const CustomSpan = styled(Typography, {})`
     font-size: ${(props) => props.customSize};
