@@ -7,7 +7,7 @@ import whitening from '../../images/whitening.png';
 
 const Services = () => {
     return (
-        <Container maxWidth="lg">
+        <Container maxWidth="lg" id="Dental">
             <Typography variant='h4' component='h6' color='#5FC7C7' textAlign='center' fontWeight='bold'>
                 OUR SERVICES
             </Typography>

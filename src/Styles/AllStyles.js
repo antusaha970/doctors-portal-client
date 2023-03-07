@@ -30,7 +30,7 @@ export const BoxTopStack = styled(Stack, {})`
 `;
 
 export const Image = styled('img', {})`
-    
+    height: ${(props) => props.height};
 `;
 
 export const ServiceContainer = styled(Box, {})`
