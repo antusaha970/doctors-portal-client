@@ -8,7 +8,7 @@ import styled from '@emotion/styled';
 
 const TitleTop = styled(Typography)(({ theme }) => ({
     fontWeight: '400',
-    fontSize: '45px'
+    fontSize: '45px',
 }))
 
 
@@ -18,13 +18,13 @@ const TopLanding = () => {
             <Container maxWidth="lg">
                 <NavLinks></NavLinks>
                 <Stack direction={{ xs: 'column', sm: 'column', md: 'row' }} sx={{ mt: { lg: '150px', xs: '80px' } }}>
-                    <Box flex={1}>
+                    <Box flex={1} sx={{pb:{xs:1,sm:1}}}>
                         <TitleTop variant='h1' component='h1'>
                             Your New Smile
                             Starts Here
                         </TitleTop>
                         <Typography variant='p' component='p'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
                         </Typography>
                         <Button variant='contained' >Get Appointment</Button>
                     </Box>
