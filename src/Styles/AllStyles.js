@@ -10,7 +10,7 @@ export const CustomSpan = styled(Typography, {})`
     }
 `;
 
-export const BoxTopContainer = styled(Box,{})`
+export const BoxTopContainer = styled(Box, {})`
     width: 100%;
     height: 189px;
     color: white;
@@ -27,5 +27,24 @@ export const BoxTopContainer = styled(Box,{})`
 
 export const BoxTopStack = styled(Stack, {})`
     margin: 20px 0;
+`;
 
+export const Image = styled('img', {})`
+    
+`;
+
+export const ServiceContainer = styled(Box, {})`
+    text-align: center;
+    margin-bottom: 20px;
+    padding:10px;
+    &:hover{
+        -webkit-box-shadow: 4px 3px 10px 5px #dddddd;
+        -moz-box-shadow: 4px 3px 10px 5px #dddddd;
+        box-shadow: 4px 3px 10px 5px #dddddd;
+        border-radius: 10px;
+    }
+`;
+
+export const ServiceStack = styled(Stack)`
+    margin: 40px 0;
 `;
