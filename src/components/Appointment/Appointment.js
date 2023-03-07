@@ -6,7 +6,7 @@ import Doctor from '../../images/doctor.png';
 
 const Appointment = () => {
     return (
-        <Box bgcolor="#28292A" my={3}>
+        <Box bgcolor="#28292A" my={{lg:3,xs:1}} pb={2}>
             <Container maxWidth='lg'>
                 <Stack direction={{ xs: 'column', sm: 'column', lg: 'row' }} spacing={1} justifyContent='center' alignItems='center'>
                     <Box flex={1}>
@@ -20,7 +20,7 @@ const Appointment = () => {
                             Make an appointment
                             Today
                         </Typography>
-                        <Typography color="#fff"  py={5}>
+                        <Typography color="#fff"  py={{lg:5,xs:2}}>
                             It is a long established fact that a reader will be distractedby the readable
                             content of a page when looking at its
                         </Typography>

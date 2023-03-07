@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, ListItemText, Stack, Typography } from "@mui/material";
 
 export const CustomSpan = styled(Typography, {})`
     font-size: ${(props) => props.customSize};
@@ -47,4 +47,13 @@ export const ServiceContainer = styled(Box, {})`
 
 export const ServiceStack = styled(Stack)`
     margin: 40px 0;
+`;
+
+
+export const TestimonialBox = styled(Box)`
+    -webkit-box-shadow: 3px 3px 1.5px -0.5px #ddd;
+    -moz-box-shadow: 3px 3px 1.5px -0.5px #ddd;
+    box-shadow: 3px 3px 1.5px -0.5px #ddd;
+    padding: 15px;
+    text-align: center;
 `;
