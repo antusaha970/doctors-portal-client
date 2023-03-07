@@ -1,5 +1,6 @@
 
 import { Box } from "@mui/material";
+import Appointment from "./components/Appointment/Appointment";
 import BoxTopCard from "./components/BoxTopCard/BoxTopCard";
 import DentalCare from "./components/DentalCare/DentalCare";
 import Services from "./components/Services/Services";
@@ -12,6 +13,7 @@ function App() {
       <BoxTopCard />
       <Services />
       <DentalCare />
+      <Appointment />
     </Box>
   );
 }
