@@ -1,6 +1,7 @@
 import { Button, Typography } from '@mui/material';
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { SingleAppointmentContainer } from '../../../Styles/AllStyles';
 
 const SingleAppointmentBox = ({appointmentDetails}) => {
@@ -22,7 +23,7 @@ const SingleAppointmentBox = ({appointmentDetails}) => {
                     availableSpace
                 }
             </Typography>
-            <Button variant="contained">BOOK APPOINTMENT</Button>
+            <Link to="/login"><Button variant="contained">BOOK APPOINTMENT</Button></Link>
         </SingleAppointmentContainer>
     );
 };

@@ -66,3 +66,7 @@ export const SingleAppointmentContainer = styled(Box)`
     padding: 40px 0;
     border-radius: 5px;
 `;
+
+export const LoginToggle= styled(Typography)`
+    cursor: pointer;
+`;
