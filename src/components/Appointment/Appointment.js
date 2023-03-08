@@ -2,6 +2,7 @@ import { Container, Box, Stack, Typography, Button } from '@mui/material';
 import React from 'react';
 import { Image } from '../../Styles/AllStyles';
 import Doctor from '../../images/doctor.png';
+import { Link } from 'react-router-dom';
 
 
 const Appointment = () => {
@@ -24,7 +25,7 @@ const Appointment = () => {
                             It is a long established fact that a reader will be distractedby the readable
                             content of a page when looking at its
                         </Typography>
-                        <Button variant="contained">GET APPOINTMENT</Button>
+                        <Link to='/bookAppointment' ><Button variant="contained">GET APPOINTMENT</Button></Link>
                     </Box>
                 </Stack>
             </Container>

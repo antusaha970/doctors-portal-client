@@ -41,18 +41,58 @@ export const testimonialData = [
 
 export const docData = [
     {
-        name:'Dr. Ismu Hossin',
+        name: 'Dr. Ismu Hossin',
         number: '+880 147696855',
-        imageLInk:doc
+        imageLInk: doc
     },
     {
-        name:'Dr. Shanjida',
+        name: 'Dr. Shanjida',
         number: '+880 157696855',
-        imageLInk:doc
+        imageLInk: doc
     },
     {
-        name:'Dr. Rafi',
+        name: 'Dr. Rafi',
         number: '+880 147696800',
-        imageLInk:doc
+        imageLInk: doc
+    },
+];
+
+
+export const appointmentFakeData = [
+    {
+        id: 1,
+        name: 'Teeth Orthodontics',
+        time: '8:00 AM - 9:00 AM',
+        availableSpace: '10 SPACES AVAILABLE'
+    },
+    {
+        id: 2,
+        name: 'Cosmetic Dentistry',
+        time: '10:00 AM - 1:00 PM',
+        availableSpace: '10 SPACES AVAILABLE'
+    },
+    {
+        id: 3,
+        name: 'Teeth Cleaning',
+        time: '11:00 AM - 12:00 AM',
+        availableSpace: '10 SPACES AVAILABLE'
+    },
+    {
+        id: 4,
+        name: 'Cavity Protection',
+        time: '9:30 AM - 5:00 PM',
+        availableSpace: '10 SPACES AVAILABLE'
+    },
+    {
+        id: 5,
+        name: 'Skin Care',
+        time: '12:00 AM - 9:00 PM',
+        availableSpace: '10 SPACES AVAILABLE'
+    },
+    {
+        id: 6,
+        name: 'Hair Care',
+        time: '1:00 PM - 4:00 PM',
+        availableSpace: '10 SPACES AVAILABLE'
     },
 ];

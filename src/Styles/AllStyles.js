@@ -57,3 +57,12 @@ export const TestimonialBox = styled(Box)`
     padding: 15px;
     text-align: center;
 `;
+
+
+export const SingleAppointmentContainer = styled(Box)`
+    -webkit-box-shadow: -1.5px -1px 17.5px 0.5px #dddddd;
+    -moz-box-shadow: -1.5px -1px 17.5px 0.5px #dddddd;
+    box-shadow: -1.5px -1px 17.5px 0.5px #dddddd;
+    padding: 40px 0;
+    border-radius: 5px;
+`;

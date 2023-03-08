@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <>
             <Box>
-                <TopLanding />
+                <TopLanding page={false} />
                 <BoxTopCard />
                 <Services />
                 <DentalCare />

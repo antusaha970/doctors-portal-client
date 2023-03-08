@@ -18,7 +18,7 @@ const NavLinks = () => {
     return (
         <Box>
             <MenuStack direction={{xs:'column',sm:'column',md:'row'}} >
-                <MenuLink variant="p" component='a' href="#Home">Home</MenuLink>
+                <MenuLink variant="p" component='a' href="/">Home</MenuLink>
                 <MenuLink variant="p" component='a' href="#About">About</MenuLink>
                 <MenuLink variant="p" component='a' href="#Dental">Dental Services</MenuLink>
                 <MenuLink variant="p" component='a' href="#Review">Reviews</MenuLink>
